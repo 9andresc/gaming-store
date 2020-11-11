@@ -1,0 +1,67 @@
+{
+  "name": "gaming-store",
+  "version": "1.0.0",
+  "description": "A web application for a gaming store.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "pck:check": "ncu",
+    "pck:update": "ncu -u",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9andresc/gaming-store.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9andresc/gaming-store/issues"
+  },
+  "homepage": "https://github.com/9andresc/gaming-store#readme",
+  "dependencies": {
+    "next": "10.0.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sanitize.css": "12.0.1",
+    "styled-components": "5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.7",
+    "@types/react": "16.9.56",
+    "@types/styled-components": "5.1.4",
+    "@typescript-eslint/eslint-plugin": "4.7.0",
+    "@typescript-eslint/parser": "4.7.0",
+    "babel-plugin-styled-components": "1.11.1",
+    "eslint": "7.13.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "husky": "4.3.0",
+    "lint-staged": "10.5.1",
+    "npm-check-updates": "10.0.0",
+    "prettier": "2.1.2",
+    "typescript": "4.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --cache --fix",
+      "git add"
+    ],
+    "*.{ts,tsx,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}

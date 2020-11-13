@@ -38,5 +38,5 @@ yarn-error.log*
 
 #cypress
 cypress.env.json
-screenshotsFolder
-videosFolder
+screenshots
+videos

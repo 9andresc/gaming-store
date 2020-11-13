@@ -8,12 +8,15 @@
   },
   "scripts": {
     "build": "next build",
+    "cy:ci": "start-server-and-test start http://localhost:3000 cy:run",
     "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "dev": "next dev",
     "pck:check": "ncu",
     "pck:update": "ncu -u",
     "start": "next start",
-    "test": "jest --watch"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -42,9 +45,11 @@
     "@types/styled-components": "5.1.4",
     "@typescript-eslint/eslint-plugin": "4.7.0",
     "@typescript-eslint/parser": "4.7.0",
+    "axe-core": "4.0.2",
     "babel-jest": "26.6.3",
     "babel-plugin-styled-components": "1.11.1",
     "cypress": "5.6.0",
+    "cypress-axe": "0.10.0",
     "eslint": "7.13.0",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-jsx-a11y": "6.4.1",
@@ -57,6 +62,7 @@
     "lint-staged": "10.5.1",
     "npm-check-updates": "10.0.0",
     "prettier": "2.1.2",
+    "start-server-and-test": "1.11.5",
     "typescript": "4.0.5"
   },
   "husky": {

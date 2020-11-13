@@ -21,6 +21,7 @@ const NavTabsWrapper = styled.div({
   bottom: '0',
   left: '0',
   position: 'fixed',
+  zIndex: 1,
 
   width: '100%'
 })

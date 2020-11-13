@@ -20,7 +20,7 @@ const Container = styled.div({
 const NavTabsWrapper = styled.div({
   bottom: '0',
   left: '0',
-  position: 'absolute',
+  position: 'fixed',
 
   width: '100%'
 })

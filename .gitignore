@@ -40,3 +40,5 @@ yarn-error.log*
 cypress.env.json
 screenshots
 videos
+
+.vercel

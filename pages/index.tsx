@@ -1,5 +1,1 @@
-import React, { ReactElement } from 'react'
-
-export default function Home(): ReactElement {
-  return <h1>Hello</h1>
-}
+export { default } from '@views/store'

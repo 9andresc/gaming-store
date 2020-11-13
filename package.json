@@ -8,10 +8,15 @@
   },
   "scripts": {
     "build": "next build",
+    "cy:ci": "start-server-and-test start http://localhost:3000 cy:run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "dev": "next dev",
     "pck:check": "ncu",
     "pck:update": "ncu -u",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -31,12 +36,20 @@
     "styled-components": "5.2.1"
   },
   "devDependencies": {
+    "@testing-library/dom": "7.26.6",
+    "@testing-library/jest-dom": "5.11.5",
+    "@testing-library/react": "11.1.2",
+    "@types/jest": "26.0.15",
     "@types/node": "14.14.7",
     "@types/react": "16.9.56",
     "@types/styled-components": "5.1.4",
     "@typescript-eslint/eslint-plugin": "4.7.0",
     "@typescript-eslint/parser": "4.7.0",
+    "axe-core": "4.0.2",
+    "babel-jest": "26.6.3",
     "babel-plugin-styled-components": "1.11.1",
+    "cypress": "5.6.0",
+    "cypress-axe": "0.10.0",
     "eslint": "7.13.0",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-jsx-a11y": "6.4.1",
@@ -44,9 +57,12 @@
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-hooks": "4.2.0",
     "husky": "4.3.0",
+    "jest": "26.6.3",
+    "jest-dom": "4.0.0",
     "lint-staged": "10.5.1",
     "npm-check-updates": "10.0.0",
     "prettier": "2.1.2",
+    "start-server-and-test": "1.11.5",
     "typescript": "4.0.5"
   },
   "husky": {

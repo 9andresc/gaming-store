@@ -2,6 +2,9 @@ module.exports = {
   ecmaFeatures: {
     jsx: true
   },
+  env: {
+    jest: true
+  },
   extends: [
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',

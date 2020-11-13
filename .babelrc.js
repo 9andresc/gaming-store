@@ -3,9 +3,9 @@ module.exports = {
     [
       'babel-plugin-styled-components',
       {
-        ssr: false,
-      },
-    ],
+        ssr: true
+      }
+    ]
   ],
-  presets: ['next/babel'],
-};
+  presets: ['next/babel']
+}

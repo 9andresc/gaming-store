@@ -27,6 +27,8 @@ jobs:
 
       - run: npm test
 
+workflows:
+  build:
     jobs:
       - cypress/install:
           build: npm run build

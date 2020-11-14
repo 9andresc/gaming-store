@@ -1,7 +1,4 @@
 module.exports = {
-  ecmaFeatures: {
-    jsx: true
-  },
   env: {
     jest: true
   },

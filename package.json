@@ -12,6 +12,8 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "dev": "next dev",
+    "format": "prettier --write \"*.{js,jsx,ts,tsx,json}\"",
+    "lint": "eslint --cache --fix \"*.{js,jsx,ts,tsx}\"",
     "pck:check": "ncu",
     "pck:update": "ncu -u",
     "start": "next start",
@@ -71,11 +73,11 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "*.{js,jsx,ts,tsx}": [
       "eslint --cache --fix",
       "git add"
     ],
-    "*.{ts,tsx,json}": [
+    "*.{js,jsx,ts,tsx,json}": [
       "prettier --write",
       "git add"
     ]

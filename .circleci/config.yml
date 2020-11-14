@@ -4,7 +4,7 @@ orbs:
   cypress: cypress-io/cypress@1.26.0
 
 jobs:
-  build:
+  build-and-test:
     docker:
       - image: circleci/node:12
 
@@ -23,16 +23,32 @@ jobs:
       - save_cache:
           paths:
             - node_modules
+            - ./.next/cache
           key: v1-dependencies-{{ checksum "package.json" }}
+      
+      - run: npm run format
+
+      - run: npm run lint
 
       - run: npm test
 
 workflows:
-  build:
+  version: 2
+  main-workflow:
     jobs:
+      - build-and-test:
+          filters:
+            branches:
+              ignore: /^chore\(deps-dev\):.+?$/
       - cypress/install:
+          filters:
+            branches:
+              ignore: /^chore\(deps-dev\):.+?$/
           build: npm run build
       - cypress/run:
+          filters:
+            branches:
+              ignore: /^chore\(deps-dev\):.+?$/
           requires:
             - cypress/install
           start: npm start

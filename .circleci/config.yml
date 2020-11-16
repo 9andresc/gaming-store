@@ -39,16 +39,16 @@ workflows:
       - build-and-test:
           filters:
             branches:
-              ignore: /^chore\(deps-dev\):.+?$/
+              ignore: /^dependabot\/.+?$/
       - cypress/install:
           filters:
             branches:
-              ignore: /^chore\(deps-dev\):.+?$/
+              ignore: /^dependabot\/.+?$/
           build: npm run build
       - cypress/run:
           filters:
             branches:
-              ignore: /^chore\(deps-dev\):.+?$/
+              ignore: /^dependabot\/.+?$/
           requires:
             - cypress/install
           start: npm start

@@ -4,6 +4,7 @@ module.exports = {
     '^@components/(.*)$': '<rootDir>/components/$1',
     '^@pages/(.*)$': '<rootDir>/pages/$1',
     '^@styles/(.*)$': '<rootDir>/styles/$1',
+    '^@tests/(.*)$': '<rootDir>/tests/$1',
     '^@utils/(.*)$': '<rootDir>/utils/$1',
     '^@views/(.*)$': '<rootDir>/views/$1'
   },
@@ -13,5 +14,5 @@ module.exports = {
     '<rootDir>/node_modules/',
     '<rootDir>/cypress/'
   ],
-  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.jsx?$'
+  testRegex: '(/tests/.*\\.spec)\\.jsx?$'
 }

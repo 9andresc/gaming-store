@@ -1,6 +1,6 @@
 {
   "firstPage": {
-    "nextPage": "http://localhost:3000/api/games?page=2&pageSize=12",
+    "nextPage": "api/games?page=2&pageSize=12",
     "results": [
       {
         "id": 3498,
@@ -109,7 +109,7 @@
     ]
   },
   "secondPage": {
-    "nextPage": "http://localhost:3000/api/games?page=3&pageSize=12",
+    "nextPage": "api/games?page=3&pageSize=12",
     "results": [
       {
         "id": 4286,

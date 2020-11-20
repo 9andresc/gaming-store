@@ -17,7 +17,9 @@
     "paths": {
       "@components/*": ["components/*"],
       "@pages/*": ["pages/*"],
+      "@server/*": ["server/*"],
       "@styles/*": ["styles/*"],
+      "@tests/*": ["tests/*"],
       "@utils/*": ["utils/*"],
       "@views/*": ["views/*"]
     }

@@ -1,0 +1,219 @@
+{
+  "firstPage": {
+    "nextPage": "api/games?page=2&pageSize=12",
+    "results": [
+      {
+        "id": 3498,
+        "image": "https://media.rawg.io/media/games/84d/84da2ac3fdfc6507807a1808595afb12.jpg",
+        "rating": 4.48,
+        "releaseDate": "2013-09-17",
+        "platforms": ["pc", "playstation", "xbox"],
+        "title": "Grand Theft Auto V"
+      },
+      {
+        "id": 4200,
+        "image": "https://media.rawg.io/media/games/328/3283617cb7d75d67257fc58339188742.jpg",
+        "rating": 4.61,
+        "releaseDate": "2011-04-18",
+        "platforms": ["apple", "linux", "pc", "playstation", "xbox"],
+        "title": "Portal 2"
+      },
+      {
+        "id": 3328,
+        "image": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+        "rating": 4.68,
+        "releaseDate": "2015-05-18",
+        "platforms": ["nintendo", "pc", "playstation", "xbox"],
+        "title": "The Witcher 3: Wild Hunt"
+      },
+      {
+        "id": 5286,
+        "image": "https://media.rawg.io/media/games/ad2/ad2ffdf80ba993654f31da045bc02456.jpg",
+        "rating": 4.06,
+        "releaseDate": "2013-03-05",
+        "platforms": ["apple", "pc", "playstation", "xbox"],
+        "title": "Tomb Raider (2013)"
+      },
+      {
+        "id": 5679,
+        "image": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
+        "rating": 4.42,
+        "releaseDate": "2011-11-11",
+        "platforms": ["nintendo", "pc", "playstation", "xbox"],
+        "title": "The Elder Scrolls V: Skyrim"
+      },
+      {
+        "id": 12020,
+        "image": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg",
+        "rating": 4.1,
+        "releaseDate": "2009-11-17",
+        "platforms": ["pc", "xbox"],
+        "title": "Left 4 Dead 2"
+      },
+      {
+        "id": 802,
+        "image": "https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg",
+        "rating": 4.05,
+        "releaseDate": "2012-09-18",
+        "platforms": ["apple", "pc", "playstation", "xbox"],
+        "title": "Borderlands 2"
+      },
+      {
+        "id": 4062,
+        "image": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg",
+        "rating": 4.39,
+        "releaseDate": "2013-03-26",
+        "platforms": ["linux", "nintendo", "pc", "playstation", "xbox"],
+        "title": "BioShock Infinite"
+      },
+      {
+        "id": 13536,
+        "image": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg",
+        "rating": 4.52,
+        "releaseDate": "2007-10-09",
+        "platforms": ["android", "apple", "linux", "pc", "playstation", "xbox"],
+        "title": "Portal"
+      },
+      {
+        "id": 3439,
+        "image": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg",
+        "rating": 4.1,
+        "releaseDate": "2015-01-29",
+        "platforms": ["android", "apple", "linux", "pc", "playstation", "xbox"],
+        "title": "Life is Strange"
+      },
+      {
+        "id": 4291,
+        "image": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg",
+        "rating": 3.57,
+        "releaseDate": "2012-08-21",
+        "platforms": ["pc", "playstation", "xbox"],
+        "title": "Counter-Strike: Global Offensive"
+      },
+      {
+        "id": 1030,
+        "image": "https://media.rawg.io/media/games/929/9295e55ce69cf5337c567983cf8b4137.jpeg",
+        "rating": 4.16,
+        "releaseDate": "2010-07-21",
+        "platforms": [
+          "android",
+          "apple",
+          "linux",
+          "nintendo",
+          "pc",
+          "playstation",
+          "xbox"
+        ],
+        "title": "Limbo"
+      }
+    ]
+  },
+  "secondPage": {
+    "nextPage": "api/games?page=3&pageSize=12",
+    "results": [
+      {
+        "id": 4286,
+        "image": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg",
+        "rating": 4.39,
+        "releaseDate": "2007-08-21",
+        "platforms": ["apple", "pc", "playstation", "xbox"],
+        "title": "BioShock"
+      },
+      {
+        "id": 13537,
+        "image": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg",
+        "rating": 4.5,
+        "releaseDate": "2004-11-16",
+        "platforms": ["android", "apple", "linux", "pc", "xbox"],
+        "title": "Half-Life 2"
+      },
+      {
+        "id": 28,
+        "image": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg",
+        "rating": 4.56,
+        "releaseDate": "2018-10-26",
+        "platforms": ["pc", "playstation", "xbox"],
+        "title": "Red Dead Redemption 2"
+      },
+      {
+        "id": 11859,
+        "image": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg",
+        "rating": 3.68,
+        "releaseDate": "2007-10-10",
+        "platforms": ["apple", "linux", "pc"],
+        "title": "Team Fortress 2"
+      },
+      {
+        "id": 2454,
+        "image": "https://media.rawg.io/media/games/c4b/c4b0cab189e73432de3a250d8cf1c84e.jpg",
+        "rating": 4.39,
+        "releaseDate": "2016-05-13",
+        "platforms": ["nintendo", "pc", "playstation", "xbox"],
+        "title": "DOOM (2016)"
+      },
+      {
+        "id": 3070,
+        "image": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg",
+        "rating": 3.76,
+        "releaseDate": "2015-11-09",
+        "platforms": ["pc", "playstation", "xbox"],
+        "title": "Fallout 4"
+      },
+      {
+        "id": 3939,
+        "image": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg",
+        "rating": 3.49,
+        "releaseDate": "2013-08-13",
+        "platforms": ["linux", "pc", "xbox"],
+        "title": "PAYDAY 2"
+      },
+      {
+        "id": 4459,
+        "image": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg",
+        "rating": 4.24,
+        "releaseDate": "2008-04-29",
+        "platforms": ["pc", "playstation", "xbox"],
+        "title": "Grand Theft Auto IV"
+      },
+      {
+        "id": 3272,
+        "image": "https://media.rawg.io/media/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg",
+        "rating": 4.02,
+        "releaseDate": "2015-07-07",
+        "platforms": [
+          "apple",
+          "linux",
+          "nintendo",
+          "pc",
+          "playstation",
+          "xbox"
+        ],
+        "title": "Rocket League"
+      },
+      {
+        "id": 58175,
+        "image": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
+        "rating": 4.61,
+        "releaseDate": "2018-04-20",
+        "platforms": ["playstation"],
+        "title": "God of War"
+      },
+      {
+        "id": 32,
+        "image": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg",
+        "rating": 3.62,
+        "releaseDate": "2017-09-06",
+        "platforms": ["pc", "playstation", "web", "xbox"],
+        "title": "Destiny 2"
+      },
+      {
+        "id": 10213,
+        "image": "https://media.rawg.io/media/games/83f/83f6f70a7c1b86cd2637b029d8b42caa.jpg",
+        "rating": 3.11,
+        "releaseDate": "2013-07-09",
+        "platforms": ["apple", "linux", "pc"],
+        "title": "Dota 2"
+      }
+    ]
+  }
+}
